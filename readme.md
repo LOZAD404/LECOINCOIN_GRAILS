@@ -9,7 +9,7 @@
 ● Amélioration UX & UI<br>
 
 ## **GESTION DE PROJET: méthode KANBAN**
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\1.PNG)
+![](D:\FILES\5IIR\MASTER_MBDS\projet_grails\Lecoincoin\grails-app\assets\README images\1.PNG)
 
 ## **TECHNOLOGIES UTILISEES**
 
@@ -19,14 +19,13 @@
 ● ADOBE ILLUSTRATOR (LOGO & FAVICON)<br>
 
 ## **LOGO LECOINCOIN**
-
-![](../../IMG_PROJET/logo.png)
+<img alt="logo" src="../Lecoincoin/grails-app/assets/README%20images/1.PNG">
 
 ## **PARTIE INTERFACES**
 
 1/- AUTHENTIFICATION<br> 
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\2.PNG)
+<img src="D:/FILES/5IIR/MASTER_MBDS/SCREENSHOTS/2.PNG">
 
 2/- AUTHENTIFICATION ADMINISTRATEUR
 
