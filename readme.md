@@ -47,7 +47,7 @@
 ## **PARTIE REST API**
 ● nous disponsons d'une API qui est réservé au role client, et qui permet de gérer les points d'entrée (REQUETE HTTP) à savoir :<br>
 
-- <p style="color:#FF0000">GET / PUT / PATCH / DELETE </p><br> 
+- <p style="color:#FF0000;"><b>GET / PUT / PATCH / DELETE</b></p><br> 
 
 ● Et la partie SPRING SECURITY qui nous permet  de gérer les différents roles (ADMIN / USER / MODERATOR)<br>
 
