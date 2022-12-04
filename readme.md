@@ -19,7 +19,7 @@
 ● ADOBE ILLUSTRATOR (LOGO & FAVICON)<br>
 
 ## **LOGO LECOINCOIN**
-<img alt="logo" src="../Lecoincoin/grails-app/assets/README%20images/1.PNG">
+<img alt="logo" src="grails-app/assets/README%20images/1.PNG" />
 
 ## **PARTIE INTERFACES**
 
