@@ -9,7 +9,7 @@
 ● Amélioration UX & UI<br>
 
 ## **GESTION DE PROJET: méthode KANBAN**
-![](D:\FILES\5IIR\MASTER_MBDS\projet_grails\Lecoincoin\grails-app\assets\README images\1.PNG)
+<img alt="img" src="grails-app/assets/README%20images/1.PNG"/>
 
 ## **TECHNOLOGIES UTILISEES**
 
@@ -19,29 +19,30 @@
 ● ADOBE ILLUSTRATOR (LOGO & FAVICON)<br>
 
 ## **LOGO LECOINCOIN**
-<img alt="logo" src="grails-app/assets/README%20images/1.PNG" />
+
+<img alt="logo" src="grails-app/assets/README%20images/logo.png"/>
 
 ## **PARTIE INTERFACES**
 
 1/- AUTHENTIFICATION<br> 
 
-<img src="D:/FILES/5IIR/MASTER_MBDS/SCREENSHOTS/2.PNG">
+<img alt="img2" src="grails-app/assets/README%20images/2.PNG"/>
 
 2/- AUTHENTIFICATION ADMINISTRATEUR
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\3.PNG)
+<img alt="img3" src="grails-app/assets/README%20images/3.PNG"/>
 
 3/- LISTE DES ANNONCES 
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\4.PNG)
+<img alt="img4" src="grails-app/assets/README%20images/4.PNG"/>
 
 4/- LA CREATION D'UNE ANNONCE
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\5.PNG)
+<img alt="img5" src="grails-app/assets/README%20images/5.PNG"/>
 
 5/- LISTE DES UTILISATEURS
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\6.PNG)
+<img alt="img6" src="grails-app/assets/README%20images/6.PNG"/>
 
 ## **PARTIE REST API**
 ● nous disponsons d'une API qui est réservé au role client, et qui permet de gérer les points d'entrée (REQUETE HTTP) à savoir :<br>
@@ -50,15 +51,15 @@
 
 ● Et la partie SPRING SECURITY qui nous permet  de gérer les différents roles (ADMIN / USER / MODERATOR)<br>
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\7.PNG)
+<img alt="img7" src="grails-app/assets/README%20images/7.PNG"/>
 
 ## **API AVEC LE FORMAT JSON**
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\8.PNG)
+<img alt="img8" src="grails-app/assets/README%20images/8.PNG"/>
 
 ## **API AVEC LE FORMAT XML**
 
-![](D:\FILES\5IIR\MASTER_MBDS\SCREENSHOTS\9.PNG)
+<img alt="img9" src="grails-app/assets/README%20images/9.PNG"/>
 
 ## **CE PROJET EST REALISE PAR : **
 - <p style="color:#1E90FF">LOZAD ACHRAF</p><br>
