@@ -3,19 +3,11 @@
 <head>
     <meta name="layout" content="main"/>
     <title>LECOINCOIN</title>
+
 </head>
 <body>
     <content tag="nav">
-        <li class="">
-            <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Annonces<span class="caret"></span></a>
 
-        </li>
-        <li class="">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Utilisateurs<span class="caret"></span></a>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Connexion<span class="caret"></span></a>
-        </li>
     </content>
 
     <div class="svg" role="presentation">
@@ -35,13 +27,13 @@
                 Lecoincoin a raté le tournant du numérique, il y a quelques décennies et aimerait vraiment pouvoir avoir une présence en ligne pour diffuser ses annonces.
             </p>
 
-            <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
+            <div style="display: none"  id="controllers" role="navigation">
+                <h1>Available Controllers:</h1>
                 <ul>
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
+                        <div  class="Controllers">
                             <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
+                        </div>
                     </g:each>
                 </ul>
             </div>
@@ -49,4 +41,5 @@
     </div>
 
 </body>
+
 </html>

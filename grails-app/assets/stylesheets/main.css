@@ -568,7 +568,23 @@ a.skip {
     text-align:center;
 }
 
-img.grails-logo {
-    height:340px;
-    margin-top:-10px;
+.header__icon{
+    position: absolute;
+    top: 0;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+.Controllers{
+    text-align: center;
+    padding: 10px;
+}
+
+.Controllers a{
+    border-radius: 80px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: justify;
 }

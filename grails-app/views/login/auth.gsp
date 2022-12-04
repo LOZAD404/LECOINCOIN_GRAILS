@@ -8,9 +8,6 @@
 
         /* BASIC */
 
-        html {
-            background-color: #56baed;
-        }
 
         body {
             font-family: "Poppins", sans-serif;
@@ -81,7 +78,7 @@
 
         h2.active {
             color: #0d0d0d;
-            border-bottom: 2px solid #5fbae9;
+            border-bottom: 2px solid black;
         }
 
 
@@ -89,7 +86,7 @@
         /* FORM TYPOGRAPHY*/
 
         input[type=button], input[type=submit], input[type=reset]  {
-            background-color: #56baed;
+            background-color: black !important;
             border: none;
             color: white;
             padding: 15px 80px;
@@ -98,8 +95,8 @@
             display: inline-block;
             text-transform: uppercase;
             font-size: 13px;
-            -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-            box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+            -webkit-box-shadow: 0 10px 30px 0 grey;
+            box-shadow: 0 10px 30px 0 grey;
             -webkit-border-radius: 5px 5px 5px 5px;
             border-radius: 5px 5px 5px 5px;
             margin: 5px 20px 40px 20px;
@@ -110,8 +107,9 @@
             transition: all 0.3s ease-in-out;
         }
 
-        input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-            background-color: #39ace7;
+        input[type=submit]:hover{
+            background-color: white !important;
+            color: black;
         }
 
         input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {

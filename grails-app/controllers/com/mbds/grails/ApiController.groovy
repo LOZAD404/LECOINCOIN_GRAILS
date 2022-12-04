@@ -3,15 +3,20 @@ package com.mbds.grails
 import grails.converters.JSON
 import grails.converters.XML
 import grails.plugin.springsecurity.annotation.Secured
+import org.dom4j.rule.Mode
 import org.springframework.http.HttpMethod
 
+@Secured(['ROLE_USER','ROLE_ADMIN','ROLE_MODERATOR'])
 class ApiController {
 
-    /**
-     * Singleton
-     * Gestion des points d'entrée : GET / PUT / PATCH / DELETE
-     */
+    def springSecurityService
+
+
     def annonce() {
+        User user = springSecurityService.currentUser
+        def Admin = Role.findById(1).save()
+        def User = Role.findById(2).save()
+        def Moderator = Role.findById(3).save()
         // On vérifie qu'un ID ait bien été fourni
         if (!params.id)
             return response.status = 400
@@ -23,7 +28,10 @@ class ApiController {
         switch (request.getMethod()) {
 
             case "GET":
-                renderThis(request.getHeader("Accept"), annonceInstance)
+                if(user.getAuthorities()[0] == User)
+                    render(status: 403,text: "Vous avez pas les permissions !")
+                else
+                    renderThis(request.getHeader("Accept"), annonceInstance)
                 break;
 
             case "PUT":
@@ -31,6 +39,9 @@ class ApiController {
             case "PATCH":
                 break;
             case "DELETE":
+                if (user.getAuthorities()[0] == Admin)
+                    annonceInstance.delete(flush:true)
+                    annonceInstance.save()
                 break;
             default:
                 return response.status = 405
@@ -44,15 +55,27 @@ class ApiController {
      * POST / GET
      */
     def annonces() {
+        switch (request.getMethod()) {
 
+        }
     }
 
     def user() {
+        switch (request.getMethod()) {
 
+        }
     }
 
     def users() {
+        switch (request.getMethod()) {
 
+        }
+    }
+
+    def illustrations(){
+        switch (request.getMethod()) {
+
+        }
     }
 
     def renderThis(String acceptHeader, Object object) {
