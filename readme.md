@@ -61,11 +61,11 @@
 
 <img alt="img9" src="grails-app/assets/README%20images/9.PNG"/>
 
-## **CE PROJET EST REALISE PAR : **
-- <p style="color:#1E90FF">LOZAD ACHRAF</p><br>
-- <p style="color:#1E90FF">BENHACHOUM ANASS</p><br>
-- <p style="color:#1E90FF">CHEMLAL ELMEHDI</p><br>
+## **CE PROJET EST RÉALISÉ PAR : **
+- <p style="color:#FFFFFF"><b>@LOZAD ACHRAF</b></p>
+- <p style="color:#FFFFFF"><b>@BENHACHOUM ANASS</b></p>
+- <p style="color:#FFFFFF"><b>@CHEMLAL ELMEHDI</b></p>
 
 ## **PROFESSEUR : **
 
-- <p style="color:#1E90FF">Mr GREGORY GALLI</p><br>
+- <p style="color:#FFFFFF"><b>Mr GREGORY GALLI</b></p>
